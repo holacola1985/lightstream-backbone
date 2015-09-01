@@ -19,9 +19,7 @@ describe('ItemBackboneModel behavior', function () {
 
     var model = new ItemBackboneModel(item);
 
-    model.coordinates().should.have.length(2);
-    model.coordinates()[0].should.equal(43.6);
-    model.coordinates()[1].should.equal(3.9);
+    model.coordinates().should.deep.equal([43.6, 3.9]);
   });
 
   it('should get data form model', function () {
