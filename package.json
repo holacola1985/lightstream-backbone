@@ -1,0 +1,36 @@
+{
+  "name": "lightstream-backbone",
+  "version": "0.1.0",
+  "description": "Provide tools to use backbone in a Lightstream project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightstream-company/lightstream-backbone.git"
+  },
+  "keywords": [
+    "lightstream",
+    "backbone",
+    "front",
+    "real",
+    "time"
+  ],
+  "author": "Jérôme Avoustin <jerome@rehia.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lightstream-company/lightstream-backbone/issues"
+  },
+  "homepage": "https://github.com/lightstream-company/lightstream-backbone#readme",
+  "dependencies": {
+    "backbone": "^1.2.2"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.0"
+  }
+}
