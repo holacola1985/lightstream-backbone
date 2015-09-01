@@ -6,7 +6,7 @@
 var chai = require('chai');
 var should = chai.should();
 
-var ItemBackboneModel = require('../app/ItemBackboneModel');
+var ItemBackboneModel = require('../lib/ItemBackboneModel');
 
 describe('ItemBackboneModel behavior', function () {
   it('should get coordinates from geojson property', function () {
